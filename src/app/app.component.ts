@@ -22,7 +22,6 @@ export class AppComponent {
   }
 
   start() {
-    console.log('dddd :>> ', this.camera.devices);
     this.orderCode = `ORD${Math.floor(Math.random() * 1000000)}`;
     const products = ['Product A', 'Product B', 'Product C'];
     this.productName = products[Math.floor(Math.random() * products.length)];
